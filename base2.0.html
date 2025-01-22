@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fitness Tracker Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Fitness Tracker Dashboard</h1>
+  </header>
+  <main>
+    <section class="stat-card">
+      <h2>Total Steps</h2>
+      <p>12,345 steps</p>
+    </section>
+    <section class="stat-card">
+      <h2>Calories Burned</h2>
+      <p>850 kcal</p>
+    </section>
+    <section class="stat-card">
+      <h2>Sleep Duration</h2>
+      <p>7 hours</p>
+    </section>
+    <div class="charts">
+      <canvas id="stepsChart"></canvas>
+      <canvas id="caloriesChart"></canvas>
+    </div>
+  </main>
+  <footer>
+    <p>&copy; 2025 Fitness Tracker</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
